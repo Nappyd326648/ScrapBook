@@ -11,15 +11,6 @@
     tools:context="com.example.in0418gq.scrapbook.MainActivity">
 
     <Button
-        android:id="@+id/take_a_picture_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Take a picture"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/note_listview"
-        android:layout_alignEnd="@+id/note_listview"/>
-
-    <Button
         android:id="@+id/add_a_note_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,13 +18,16 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
-    <ListView
-        android:id="@+id/note_listview"
-        android:layout_width="match_parent"
+
+    <Button
+
+        android:id="@+id/take_a_picture_btn"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/take_a_picture_btn">
+        android:text="Take a picture"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
-    </ListView>
 
-    
 </RelativeLayout>
